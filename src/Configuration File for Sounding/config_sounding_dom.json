@@ -1,0 +1,47 @@
+{
+ "root_dir"                     : "./Results/",
+ "test_name"                    : "sweep_dominic_fff_fff_fff",
+ "overwrite_existing"           : false,
+
+ "-- node 1 "                   : "--",
+ "node1_IP"                     : "fc00:face:b00c::1",
+ "-- node 2 "                   : "--",
+ "node2_IP"                     : "fc00:face:b00c::2",
+
+ "-- sounder general"           : "--",
+ "connection"                   : "local",
+ "link_dir"                     : "1to2",
+ "estimate_channel"             : 1,
+ "channel"                      : 2,
+ "mcs"                          : 1,
+ "n_stat"                       : 1,
+ "tx_beams"                     : "range(0,64)",
+ "rx_beams"                     : "range(0,64)",
+
+ "tx_array_mask"                : ["0Xfff","0Xfff","0Xfff"],
+ "rx_array_mask"                : ["0Xfff","0Xfff","0Xfff"],
+ "tx_gain_idxs"                 : [15],
+
+ "rx_rf_gain_thr"               : 0,
+ "rx_if_gain_thr"               : 0,
+ "tx_pkt_cnt"                   : 0,
+ "rx_pkt_cnt"                   : 10,
+ "pkt_size"                     : 512,
+ "pkt_gap"                      : 20,
+ "tx_timeout"                   : 100000,
+ "rx_timeout"                   : 0.1,
+ "rx_wait"                      : 0,
+ "save_gps_coordinates"         : true,
+
+  "-- PER --- "                 : "--",
+ "per_find_best_beam"           : true,
+ "per_tx_beam"                  : 0,
+ "per_rx_beam"                  : 0,
+ "per_mcs"                      : "range(1,13)",
+ "per_file"                     : "PER_mon.CSV",
+
+
+ "-- other "                    : "--",
+ "devserver"                    : "NA"
+
+}
