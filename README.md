@@ -5,7 +5,7 @@ The Thesis uses the data of two phased antenna arrays to measure the signal loss
 
 
 <img width="1248" alt="tg" src="https://user-images.githubusercontent.com/63147491/128741781-95204cce-d69f-4337-9bcb-223b91a1390b.png">
-The two renderings show groundtruth positions and estimated positions using this algorithm.
+The two renderings show groundtruth positions and estimated positions using this algorithm.  
 If you are interested in this topic feel free to ask for the Thesis.
 
 ### Specifications
