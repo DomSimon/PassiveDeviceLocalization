@@ -33,7 +33,7 @@ localize objects in Session 5 type:
 Way of finding the best Parameters via Terminal:
 ----------------------------------------------------------------
 Adjust tg_findparam.py for a fitting purpose.
-If nothing is changed, the script calculates alls 25536 combinations.
+If nothing is changed, the script calculates all 25536 combinations.
 Averages are calculated and saved to results_iteration_sorted.csv
 This table can then be sorted and searched by the user 
 accordingly to the users priorities.
